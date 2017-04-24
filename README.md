@@ -36,7 +36,7 @@ Projekte:
 * 1 failas su credential'ais, 
 * taip pat pridėtos reikalingos bibliotekos logginimui (projekto struktūra pateikiama [žemiau](#standartinis-pagrindini%C5%B3-direktorij%C5%B3-ir-fail%C5%B3-layoutas)), šie lib'ai taip pat papildomai nurodyti ir programos classpath'e. 
 
-Build'inimui (nurodymui, kad reikia JDK 8 `maven-compiler-plugin`'o, ir 4 priklausomybių injection'ui) automatizuoti naudoju "Maven'ą" ([`pom.xml`](https://github.com/apuokenas/amazon-taf-java/blob/master/pom.xml)). Pasirinktas "WebDriver'is", kaip jau galima suprasti iš pirmo testo, - "ChromeDriver" (sėkmingai naudojau v2.27.440174, o "Google Chrome" - v58.0.3029.81, kas yra keista, nes per macOS paketų valdyklę "Homebrew" parsisiųsta "ChromeDriver" versija palaiko tik "Chrome" v54-56). Programavau "IntelliJ IDEA" aplinkoje.
+Build'inimui (nurodymui, kad reikia JDK 8 `maven-compiler-plugin`'o, ir 5 priklausomybių injection'ui) automatizuoti naudoju "Maven'ą" ([`pom.xml`](https://github.com/apuokenas/amazon-taf-java/blob/master/pom.xml)). Pasirinktas "WebDriver'is", kaip jau galima suprasti iš pirmo testo, - "ChromeDriver" (sėkmingai naudojau v2.27.440174, o "Google Chrome" - v58.0.3029.81, kas yra keista, nes per macOS paketų valdyklę "Homebrew" parsisiųsta "ChromeDriver" versija palaiko tik "Chrome" v54-56). Programavau "IntelliJ IDEA" aplinkoje.
 
 #### Reikalingų priklausomybių artifaktai: 
 * `selenium-java` (galima naudoti pasirinktą "Selenium" web aplikacijų testavimo framework'o "WebDriver" implementaciją - "ChromeDriver", "FirefoxDriver" arba "InternetExplorerDriver", yra alternatyvos "Android'ui" ir "iOS'ui"), 
