@@ -45,7 +45,7 @@ Build'inimui (nurodymui, kad reikia JDK 8 `maven-compiler-plugin`'o, ir 5 prikla
 * `log4j-core` ("Log4j 2" implementacija, reikalinga programos vykdymo metu, bet ne per kompiliavimą), 
 * `org.osgi.core` ("Open Service Gateway Initiative" framework'as kurti modulinę programą). 
 
-## Standartinis pagrindinių direktorijų ir failų layoutas
+## Standartinis pagrindinių direktorijų ir failų layout'as
 <pre>
 /img - README faile naudojamos instrukcijų iliustracijos
 
@@ -68,14 +68,14 @@ Build'inimui (nurodymui, kad reikia JDK 8 `maven-compiler-plugin`'o, ir 5 prikla
            |    |
            |    |____Url.java - reikalingos URL nuorodos su konstruktoriumi ir getter'iu
            |
-           |___pages - visi web aplikaciją per jos elementų ID ir CSS selektorius (dėl to XPath'as niekur nenaudojamas, nors jis ir gali traverse'inti per DOM'ą, bet aplikacijoje reikalingi elementų ID ir klasių pavadinimai buvo unikalūs) reprezentuojantys puslapiai, paveldintys iš tėvinės CommonUtils.java klasės
+           |___pages - web aplikaciją per jos elementų ID ir CSS selektorius (dėl to XPath'as niekur nenaudojamas, nors jis ir gali traverse'inti per DOM'ą, bet aplikacijoje reikalingi elementų ID ir klasių pavadinimai buvo unikalūs) reprezentuojantys puslapiai, paveldintys iš tėvinės CommonUtils.java klasės
            |    |____HomePage.java - metodai, skirti atsijungti, nueiti į pradžios ir prisijungimo puslapius, gauti krepšelio prekių skaičių, paspausti krepšelio ikoną
            |    |
            |    |____ProductPage.java - metodai veiksmams, atliekamiems produkto puslapyje
            |    |
            |    |____ShoppingCartPage.java - metodai patikrinti, ar esame krepšelio puslapyje, taip pat ištrinti iš krepšelio prekes
            |    |
-           |    |____ShoppingCartReviewPage.java- metodai patikrinti, ar esame krepšelio apžvalgos puslapyje, ir gauti krepšelio kainą
+           |    |____ShoppingCartReviewPage.java - metodai patikrinti, ar esame krepšelio apžvalgos puslapyje, ir gauti krepšelio kainą
            |    |
            |    |____SignInPage.java - metodai prisijungti
            |
